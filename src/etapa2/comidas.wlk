@@ -37,6 +37,12 @@ object mijo {
 }
 
 object canelones {
+	var canEnerg = 20
+	method canSolos {canEnerg = 20 }
+	method agregSalsa {canEnerg += 5}
+	method agrQueso {canEnerg += 7 }
+	method agrSalsaQUeso {cabEnerg += 12}
+	
 	method energiaPorGramo() {}
 }
 // despues, agregar mijo y canelones
