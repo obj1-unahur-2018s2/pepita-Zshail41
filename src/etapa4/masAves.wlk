@@ -1,4 +1,7 @@
 
+import pepita.*
+import comidas.*
+
 object pepon {
 	var energia = 0
 	method energia() {return energia}
@@ -14,6 +17,7 @@ object pipa {
 	var kmsTotales = 0
 	method comer(cosa, cuanto) {gramosTotales += cuanto}
 	method volar(kms) {kmsTotales += kms}
+	method gramosIngeridos() {return gramosTotales}
 	method kmsRecorridos() {return kmsTotales}
 	method haceLoQueQuieras() { }   
 }
